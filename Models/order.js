@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 const orderSchema = mongoose.Schema({
-    orderItem:{
+    orderItem:[{
         type:mongoose.Schema.Types.ObjectId,
         ref:'OrderItem',
         required:true
-    },
+    }],
     shippingAddress1:{
         type:String,
         required:true
