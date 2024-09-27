@@ -18,7 +18,7 @@ MongoDB (or your preferred database)<br /><br />
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/eshop_api.git
+git clone https://github.com/YuHsuan-Lu/Eshop_api.git
 ```
 
 Navigate to the project directory:
@@ -74,11 +74,11 @@ API Endpoints
   + POST /api/v1/users/login: Login to an existed account, and get JWT assignment
   + DELETE /api/v1/users/:userId: Delete a user
 
-Authentication
-1. user are not allow to use api without authentication
-![img1](./assets/1.png)
-2. login and get the JWT token
-![img2](./assets/2.png)
-3. after authentication, the api is accessible
-![img3](./assets/3.png)
+Authentication<br />
+1. user are not allow to use api without authentication<br />
+<img src="https://github.com/user-attachments/assets/83ca04b6-aa10-4eda-81c4-9a771f947309" alt="Screenshot" width="500" /><br />
+2. login and get the JWT token<br />
+<img src="https://github.com/user-attachments/assets/b817d55c-5ae1-4708-96c6-f907bd72ed00" alt="Screenshot" width="500" /><br />
+3. after authentication, the api is accessible<br />
+<img src="https://github.com/user-attachments/assets/5318235e-571f-4b41-8225-bc74a03951bf" alt="Screenshot" width="500" /><br />
 
